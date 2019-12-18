@@ -24,12 +24,12 @@ apply them to Pacman scenarios.
   python pacman.py -l mediumDottedMaze -p StayEastSearchAgent
   python pacman.py -l mediumScaryMaze -p StayWestSearchAgent
   
-**A***:<br/>
+**AStar**:<br/>
   python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
   
 **Finding the 4 corners of the map (BFS):**<br/>
   python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
   python pacman.py -l mediumCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
  
-**Finding the 4 corners of the map (A*)**:<br/>
+**Finding the 4 corners of the map (AStar)**:<br/>
   python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
