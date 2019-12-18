@@ -1,0 +1,3 @@
+How to edit question points assigned by the autograder:
+Inside the test_cases folder, access each question folder and modify the CONFIG file.
+For questions 6 and 7 (thresholds), also modify medium_corners.solution and food_heuristic_grade_tricky.solution, respectively.
