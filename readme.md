@@ -1,6 +1,7 @@
 # PACMAN AI PROJECT
 
 Challenge creditted to UC Berkeley, (http://ai.berkeley.edu)
+Partner: www.github.com/ootmon1
 
 # Introduction
 
