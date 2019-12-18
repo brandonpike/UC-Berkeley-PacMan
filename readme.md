@@ -10,7 +10,7 @@ apply them to Pacman scenarios.
 
 # Commands to test the AI:
 
-Finding a dot with DFS:
+Finding a dot with DFS: <br/>
   python pacman.py -l tinyMaze -p SearchAgent
   python pacman.py -l mediumMaze -p SearchAgent
   python pacman.py -l bigMaze -z .5 -p SearchAgent
