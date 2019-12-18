@@ -10,26 +10,26 @@ apply them to Pacman scenarios.
 
 # Commands to test the AI:
 
-Finding a dot with DFS: <br/>
+**Finding a dot with DFS:** <br/>
   python pacman.py -l tinyMaze -p SearchAgent
   python pacman.py -l mediumMaze -p SearchAgent
   python pacman.py -l bigMaze -z .5 -p SearchAgent
   
-Finding a dot with BFS:
+**Finding a dot with BFS:**<br/>
   python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
   python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
 
-UCS:
+**UCS:**<br/>
   python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
   python pacman.py -l mediumDottedMaze -p StayEastSearchAgent
   python pacman.py -l mediumScaryMaze -p StayWestSearchAgent
   
-A*:
+**A***:<br/>
   python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
   
-Finding the 4 corners of the map (BFS):
+**Finding the 4 corners of the map (BFS):**<br/>
   python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
   python pacman.py -l mediumCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
  
-Finding the 4 corners of the map (A*):
+**Finding the 4 corners of the map (A*)**:<br/>
   python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
